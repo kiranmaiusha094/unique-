@@ -1,0 +1,24 @@
+#include<stdio h>
+Void main()
+{
+Int a[20]; a 
+Int i,n,num,flag=0;
+Printf("enter how many elements");
+Scanf("%d",&n);
+Printf("enter elements");
+Scanf("%d",&num);
+I=num;
+For(I=0;I<=n;i++)
+{
+Flag=0;
+Scanf("%d",&a[i]);
+If(a[i]==num)
+{
+Flag=1;
+}
+}
+If(flag=0)
+Printf("UNIQUE");
+Else
+Printf("DUPLICATE");
+}
